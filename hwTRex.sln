@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hwTRex", "hwTRex\hwTRex.csproj", "{15CB930D-FD31-4725-A2EC-07B3017FF8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hwTrex.Tests", "hwTrex.Tests\hwTrex.Tests.csproj", "{EA01A6C3-1669-40F0-A301-2506CA57DF1B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15CB930D-FD31-4725-A2EC-07B3017FF8BE} = {15CB930D-FD31-4725-A2EC-07B3017FF8BE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15CB930D-FD31-4725-A2EC-07B3017FF8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CB930D-FD31-4725-A2EC-07B3017FF8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CB930D-FD31-4725-A2EC-07B3017FF8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CB930D-FD31-4725-A2EC-07B3017FF8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA01A6C3-1669-40F0-A301-2506CA57DF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA01A6C3-1669-40F0-A301-2506CA57DF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA01A6C3-1669-40F0-A301-2506CA57DF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA01A6C3-1669-40F0-A301-2506CA57DF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8068EFD6-C4E5-442F-920C-927613E960DD}
+	EndGlobalSection
+EndGlobal
